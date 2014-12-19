@@ -1,0 +1,25 @@
+/*
+.arrow1 a{
+  background: green;
+  color: white;
+  padding: 1em 2em;
+  position: relative;
+  bottom: 500px;
+  left: 50px;
+}
+
+.arrow1 a:after{
+  content:"";
+  position: absolute;
+}
+
+.arrow1 a:after{
+  left:100%;
+  top:-25px;
+  width:0px;
+  height:0px;
+  border-top:50px solid transparent;
+  border-bottom:50px solid transparent;
+  border-left:30px solid green;
+  /*border-right:30px solid yellow;*/
+/*}*/
